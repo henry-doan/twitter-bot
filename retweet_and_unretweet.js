@@ -39,6 +39,7 @@ function getBotTimeline() {
 
 /* 
 	This does the retweet to a id in the parameter.
+	
 	To get the id use the function above.
 
 	Input the id that you want to retweet.
