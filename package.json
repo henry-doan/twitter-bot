@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "tracery-grammar": "^2.7.3",
     "twit": "^2.2.5"
   }
 }
