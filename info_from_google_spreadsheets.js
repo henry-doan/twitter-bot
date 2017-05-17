@@ -12,8 +12,10 @@ var bot = new Twit ({
 	timeout_ms: 60*1000
 });
 
+// to get the URL go to the google spreadsheet page with the file tab then click publish on web and then grab that URL
 var spreadsheetUrl = 'URL FROM GOOGLE SPREADSHEETS';
 
+// Grabs the data from the sheets and then post it on twitter
 Tabletop.init({
   key: spreadsheetUrl,
   callback: function(data, tabletop){
